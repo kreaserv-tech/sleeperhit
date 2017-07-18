@@ -1,0 +1,19 @@
+@font-face {
+  font-family: '';
+  src: ;
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'BrandonPrinted-One';
+  src: url('BrandonPrinted-One.eot');
+  src: url('BrandonPrinted-One.woff2') format('woff2'),
+       url('BrandonPrinted-One.woff') format('woff'),
+       url('BrandonPrinted-One.ttf') format('truetype'),
+       url('BrandonPrinted-One.svg#BrandonPrinted-One') format('svg'),
+       url('BrandonPrinted-One.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+

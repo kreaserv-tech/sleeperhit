@@ -1,0 +1,57 @@
+[06-Feb-2017 07:56:57 America/Detroit] PHP Warning:  mysqli::mysqli(): (HY000/2005): Unknown MySQL server host 'http://45.113.122.166:3306' (2) in /home/sdtaxult/public_html/sleeper-hit-live/insert.php on line 10
+[06-Feb-2017 07:57:34 America/Detroit] PHP Warning:  mysqli::mysqli(): (HY000/2005): Unknown MySQL server host '45.113.122.166:3306' (2) in /home/sdtaxult/public_html/sleeper-hit-live/insert.php on line 10
+[06-Feb-2017 07:58:25 America/Detroit] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'sleeper'@'23.91.70.24' (using password: YES) in /home/sdtaxult/public_html/sleeper-hit-live/insert.php on line 10
+[06-Feb-2017 08:01:32 America/Detroit] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'leadfxx1_sleeper'@'23.91.70.24' (using password: YES) in /home/sdtaxult/public_html/sleeper-hit-live/insert.php on line 10
+[06-Feb-2017 08:02:29 America/Detroit] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'leadfxx1_sleeper'@'23.91.70.24' (using password: YES) in /home/sdtaxult/public_html/sleeper-hit-live/insert.php on line 10
+[06-Feb-2017 08:02:34 America/Detroit] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'leadfxx1_sleeper'@'23.91.70.24' (using password: YES) in /home/sdtaxult/public_html/sleeper-hit-live/insert.php on line 10
+[06-Feb-2017 08:05:46 America/Detroit] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'leadfxx1_sleeper'@'23.91.70.24' (using password: YES) in /home/sdtaxult/public_html/sleeper-hit-live/insert.php on line 10
+[06-Feb-2017 08:06:12 America/Detroit] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'leadfxx1_sleeper'@'23.91.70.24' (using password: YES) in /home/sdtaxult/public_html/sleeper-hit-live/insert.php on line 10
+[06-Feb-2017 08:09:44 America/Detroit] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'leadfxx1_sleeper'@'23.91.70.24' (using password: YES) in /home/sdtaxult/public_html/sleeper-hit-live/insert.php on line 11
+[06-Feb-2017 08:09:55 America/Detroit] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'leadfxx1_sleeper'@'23.91.70.24' (using password: YES) in /home/sdtaxult/public_html/sleeper-hit-live/insert.php on line 11
+[06-Feb-2017 08:11:09 America/Detroit] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'leadfxx1_sleeper'@'23.91.70.24' (using password: YES) in /home/sdtaxult/public_html/sleeper-hit-live/insert.php on line 11
+[06-Feb-2017 08:11:31 America/Detroit] PHP Warning:  mysqli::mysqli(): (HY000/2005): Unknown MySQL server host '45.113.122.166:3306' (2) in /home/sdtaxult/public_html/sleeper-hit-live/insert.php on line 11
+[06-Feb-2017 08:13:06 America/Detroit] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'leadfxx1_sleeper'@'23.91.70.24' (using password: YES) in /home/sdtaxult/public_html/sleeper-hit-live/insert.php on line 11
+[06-Feb-2017 08:18:00 America/Detroit] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'leadfxx1_sleeper'@'23.91.70.24' (using password: YES) in /home/sdtaxult/public_html/sleeper-hit-live/insert.php on line 11
+[06-Feb-2017 08:20:46 America/Detroit] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'leadfxx1_sleeper'@'23.91.70.24' (using password: YES) in /home/sdtaxult/public_html/sleeper-hit-live/insert.php on line 11
+[06-Feb-2017 08:48:51 America/Detroit] PHP Warning:  mysql_query(): Access denied for user 'root'@'localhost' (using password: NO) in /home/sdtaxult/public_html/sleeper-hit-live/insert.php on line 18
+[06-Feb-2017 08:48:51 America/Detroit] PHP Warning:  mysql_query(): A link to the server could not be established in /home/sdtaxult/public_html/sleeper-hit-live/insert.php on line 18
+[06-Feb-2017 08:50:20 America/Detroit] PHP Warning:  mysql_query(): Access denied for user 'root'@'localhost' (using password: NO) in /home/sdtaxult/public_html/sleeper-hit-live/insert.php on line 18
+[06-Feb-2017 08:50:20 America/Detroit] PHP Warning:  mysql_query(): A link to the server could not be established in /home/sdtaxult/public_html/sleeper-hit-live/insert.php on line 18
+[06-Feb-2017 08:53:22 America/Detroit] PHP Parse error:  syntax error, unexpected ')' in /home/sdtaxult/public_html/sleeper-hit-live/insert.php on line 15
+[06-Feb-2017 08:53:30 America/Detroit] PHP Parse error:  syntax error, unexpected ')' in /home/sdtaxult/public_html/sleeper-hit-live/insert.php on line 15
+[06-Feb-2017 08:53:57 America/Detroit] PHP Parse error:  syntax error, unexpected ')' in /home/sdtaxult/public_html/sleeper-hit-live/insert.php on line 15
+[06-Feb-2017 08:54:05 America/Detroit] PHP Parse error:  syntax error, unexpected ')' in /home/sdtaxult/public_html/sleeper-hit-live/insert.php on line 15
+[06-Feb-2017 08:54:55 America/Detroit] PHP Parse error:  syntax error, unexpected ')' in /home/sdtaxult/public_html/sleeper-hit-live/insert.php on line 15
+[06-Feb-2017 08:54:57 America/Detroit] PHP Parse error:  syntax error, unexpected ')' in /home/sdtaxult/public_html/sleeper-hit-live/insert.php on line 15
+[06-Feb-2017 08:54:59 America/Detroit] PHP Parse error:  syntax error, unexpected ')' in /home/sdtaxult/public_html/sleeper-hit-live/insert.php on line 15
+[06-Feb-2017 08:57:58 America/Detroit] PHP Parse error:  syntax error, unexpected 'die' (T_EXIT), expecting ',' or ';' in /home/sdtaxult/public_html/sleeper-hit-live/insert.php on line 17
+[06-Feb-2017 08:58:05 America/Detroit] PHP Parse error:  syntax error, unexpected 'die' (T_EXIT), expecting ',' or ';' in /home/sdtaxult/public_html/sleeper-hit-live/insert.php on line 17
+[06-Feb-2017 08:58:06 America/Detroit] PHP Parse error:  syntax error, unexpected 'die' (T_EXIT), expecting ',' or ';' in /home/sdtaxult/public_html/sleeper-hit-live/insert.php on line 17
+[06-Feb-2017 08:58:15 America/Detroit] PHP Parse error:  syntax error, unexpected 'die' (T_EXIT), expecting ',' or ';' in /home/sdtaxult/public_html/sleeper-hit-live/insert.php on line 17
+[06-Feb-2017 08:58:16 America/Detroit] PHP Parse error:  syntax error, unexpected 'die' (T_EXIT), expecting ',' or ';' in /home/sdtaxult/public_html/sleeper-hit-live/insert.php on line 17
+[06-Feb-2017 09:08:21 America/Detroit] PHP Warning:  mysql_query() expects parameter 2 to be resource, object given in /home/sdtaxult/public_html/sleeper-hit-live/insert.php on line 16
+[06-Feb-2017 09:08:21 America/Detroit] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, null given in /home/sdtaxult/public_html/sleeper-hit-live/insert.php on line 17
+[06-Feb-2017 09:08:28 America/Detroit] PHP Warning:  mysql_query() expects parameter 2 to be resource, object given in /home/sdtaxult/public_html/sleeper-hit-live/insert.php on line 16
+[06-Feb-2017 09:08:28 America/Detroit] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, null given in /home/sdtaxult/public_html/sleeper-hit-live/insert.php on line 17
+[06-Feb-2017 09:16:22 America/Detroit] PHP Warning:  mysqli::mysqli(): (HY000/2003): Can't connect to MySQL server on '45.113.122.166' (110) in /home/sdtaxult/public_html/sleeper-hit-live/insert.php on line 11
+[10-Feb-2017 14:01:27 Etc/GMT] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'leadfxx1_sleeper'@'45.113.122.166' (using password: YES) in /home/leadfxx1/public_html/sleeperhit.in/booking.php on line 11
+[10-Feb-2017 14:01:35 Etc/GMT] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'leadfxx1_sleeper'@'45.113.122.166' (using password: YES) in /home/leadfxx1/public_html/sleeperhit.in/booking.php on line 11
+[10-Feb-2017 14:01:52 Etc/GMT] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'leadfxx1_sleeper'@'45.113.122.166' (using password: YES) in /home/leadfxx1/public_html/sleeperhit.in/booking.php on line 11
+[10-Feb-2017 14:02:31 Etc/GMT] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'leadfxx1_sleeper'@'45.113.122.166' (using password: YES) in /home/leadfxx1/public_html/sleeperhit.in/insert.php on line 11
+[10-Feb-2017 14:02:58 Etc/GMT] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'leadfxx1_sleeper'@'45.113.122.166' (using password: YES) in /home/leadfxx1/public_html/sleeperhit.in/insert.php on line 11
+[10-Feb-2017 14:03:28 Etc/GMT] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'leadfxx1_sleeper'@'45.113.122.166' (using password: YES) in /home/leadfxx1/public_html/sleeperhit.in/booking.php on line 11
+[10-Feb-2017 14:06:29 Etc/GMT] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'leadfxx1_sleeper'@'45.113.122.166' (using password: YES) in /home/leadfxx1/public_html/sleeperhit.in/booking.php on line 11
+[10-Feb-2017 14:08:48 Etc/GMT] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'leadfxx1_sleeper'@'45.113.122.166' (using password: YES) in /home/leadfxx1/public_html/sleeperhit.in/booking.php on line 11
+[10-Feb-2017 14:17:39 Etc/GMT] PHP Warning:  mysqli::mysqli(): (42000/1044): Access denied for user 'leadfxx1_admin'@'localhost' to database 'leadfxx1_sleeper' in /home/leadfxx1/public_html/sleeperhit.in/insert.php on line 11
+[10-Feb-2017 14:18:31 Etc/GMT] PHP Warning:  mysqli::mysqli(): (42000/1044): Access denied for user 'leadfxx1_admin'@'localhost' to database 'leadfxx1_sleeper' in /home/leadfxx1/public_html/sleeperhit.in/insert.php on line 11
+[10-Feb-2017 14:20:48 Etc/GMT] PHP Parse error:  syntax error, unexpected '@' in /home/leadfxx1/public_html/sleeperhit.in/insert.php on line 11
+[10-Feb-2017 14:21:51 Etc/GMT] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'leadfxx1_sleeper'@'45.113.122.166' (using password: YES) in /home/leadfxx1/public_html/sleeperhit.in/booking.php on line 11
+[10-Feb-2017 14:22:31 Etc/GMT] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'leadfxx1_sleeper'@'45.113.122.166' (using password: YES) in /home/leadfxx1/public_html/sleeperhit.in/booking.php on line 11
+[10-Feb-2017 14:22:38 Etc/GMT] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'leadfxx1_sleeper'@'45.113.122.166' (using password: YES) in /home/leadfxx1/public_html/sleeperhit.in/booking.php on line 11
+[10-Feb-2017 14:24:16 Etc/GMT] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'leadfxx1_sleeper'@'45.113.122.166' (using password: YES) in /home/leadfxx1/public_html/sleeperhit.in/booking.php on line 11
+[13-Feb-2017 07:32:56 Etc/GMT] PHP Parse error:  syntax error, unexpected '@' in /home/leadfxx1/public_html/sleeperhit.in/insert.php on line 11
+[13-Feb-2017 07:34:09 Etc/GMT] PHP Parse error:  syntax error, unexpected '@' in /home/leadfxx1/public_html/sleeperhit.in/insert.php on line 11
+[13-Feb-2017 07:36:03 Etc/GMT] PHP Parse error:  syntax error, unexpected '@' in /home/leadfxx1/public_html/sleeperhit.in/insert.php on line 11
+[13-Feb-2017 07:37:55 Etc/GMT] PHP Parse error:  syntax error, unexpected '@' in /home/leadfxx1/public_html/sleeperhit.in/insert.php on line 11
+[13-Feb-2017 07:42:45 Etc/GMT] PHP Parse error:  syntax error, unexpected '@' in /home/leadfxx1/public_html/sleeperhit.in/insert.php on line 11
+[13-Feb-2017 07:44:43 Etc/GMT] PHP Warning:  mysqli::mysqli(): (42000/1044): Access denied for user 'leadfxx1_admin'@'localhost' to database 'leadfxx1_sleeper' in /home/leadfxx1/public_html/sleeperhit.in/insert.php on line 8

@@ -1,0 +1,32 @@
+
+
+@GDEF_Simple = [\O \Q \R \S \T \U \V \W \X \Y \Z \N \M \L \K \J \I \H \G \F \E \D \C \B \A \u \v \w \x \y 
+	\z \t \s \r \q \p \o \n \m \l \k \j \i \h \g \f \e \d \c \b \a \zero \one \two \three \four \five 
+	\six \seven \eight \nine \period \at \aring \odieresis \Aring \Adieresis 
+	\Odieresis \adieresis \hyphen \ocircumflex \oacute \ograve \otilde \ntilde \eth 
+	\idieresis \icircumflex \iacute \igrave \edieresis \dotlessi \space \uni0020 
+	\oslash \uacute \ugrave \ucircumflex \udieresis \yacute \thorn \ecircumflex 
+	\egrave \ccedilla \eacute \ae \atilde \acircumflex \aacute \agrave \uni00DF 
+	\ydieresis \oe \Idieresis \Icircumflex \Igrave \Iacute \Ntilde \Edieresis 
+	\Ecircumflex \Egrave \Eacute \Ccedilla \AE \Atilde \Acircumflex \Agrave \Aacute 
+	\OE \Oacute \Ograve \Ocircumflex \Otilde \Oslash \Uacute \Ugrave \Ucircumflex 
+	\Udieresis \Yacute \Ydieresis \Eth \Thorn \trademark \copyright \registered 
+	\question \exclam \questiondown \exclamdown \bullet \quotedblbase 
+	\quotedblleft \quotedblright \quotedbl \quotesinglbase \quoteleft \quoteright 
+	\quotesingle \periodcentered \semicolon \colon \comma \ellipsis 
+	\guillemotright \guillemotleft \guilsinglright \guilsinglleft \braceright 
+	\bracketright \parenright \parenleft \bracketleft \braceleft \cedilla \uni02DC 
+	\dieresis \uni02C6 \grave \acute \less \greater \equal \multiply \divide 
+	\plusminus \logicalnot \asciicircum \plus \degree \brokenbar \bar \backslash 
+	\slash \uni00AF \underscore \emdash \endash \dollar \cent \sterling \glyph191 
+	\yen \uni20AC \ampersand \asterisk \perthousand \percent \numbersign \paragraph 
+	\uni0192 \dagger \daggerdbl \Scaron \Zcaron \scaron \zcaron \Lslash \lslash 
+	\uni00B5 \threequarters \onequarter \onehalf \onesuperior \twosuperior 
+	\threesuperior \ordfeminine \ordmasculine \section \phi \P \asciitilde 
+	\currency ];
+
+table GDEF {
+  GlyphClassDef @GDEF_Simple, , , ;
+
+} GDEF;
+

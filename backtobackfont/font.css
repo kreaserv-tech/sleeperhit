@@ -1,0 +1,18 @@
+@font-face {
+  font-family: 'Back to Black Demo';
+  src: url('Back to Black Demo.eot');
+  src: url('Back to Black Demo.woff2') format('woff2'),
+       url('Back to Black Demo.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'BacktoBlackDemo';
+  src: url('BacktoBlackDemo.woff') format('woff'),
+       url('BacktoBlackDemo.ttf') format('truetype'),
+       url('BacktoBlackDemo.svg#BacktoBlackDemo') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+

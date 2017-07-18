@@ -1,0 +1,106 @@
+languagesystem DFLT dflt;
+languagesystem latn dflt;
+languagesystem latn MOL ;
+languagesystem latn ROM ;
+
+
+# GSUB 
+
+
+lookup ligaStandardLigaturesinLatinlookup0 {
+  lookupflag 0;
+    sub \t \r  by \t_r;
+} ligaStandardLigaturesinLatinlookup0;
+
+lookup loclLocalizedFormsinLatinlookup1 {
+  lookupflag 0;
+    sub \Scedilla by \uni0218 ;
+    sub \scedilla by \uni0219 ;
+} loclLocalizedFormsinLatinlookup1;
+
+feature liga {
+
+ script DFLT;
+     language dflt ;
+      lookup ligaStandardLigaturesinLatinlookup0;
+
+ script latn;
+     language dflt ;
+      lookup ligaStandardLigaturesinLatinlookup0;
+     language MOL  exclude_dflt;
+      lookup ligaStandardLigaturesinLatinlookup0;
+     language ROM  exclude_dflt;
+      lookup ligaStandardLigaturesinLatinlookup0;
+} liga;
+
+feature locl {
+
+ script latn;
+     language MOL  exclude_dflt;
+      lookup loclLocalizedFormsinLatinlookup1;
+} locl;
+
+# GPOS 
+
+
+lookup kernHorizontalKerninginLatinlookup0 {
+  lookupflag 0;
+    pos \space \t 133;
+    pos \t \at 76;
+    pos \t \question 283;
+    pos \c \r 12;
+    pos \N \i -59;
+    pos \S \t 60;
+    pos \E \t 72;
+} kernHorizontalKerninginLatinlookup0;
+
+feature kern {
+
+ script DFLT;
+     language dflt ;
+      lookup kernHorizontalKerninginLatinlookup0;
+
+ script latn;
+     language dflt ;
+      lookup kernHorizontalKerninginLatinlookup0;
+     language MOL  exclude_dflt;
+      lookup kernHorizontalKerninginLatinlookup0;
+     language ROM  exclude_dflt;
+      lookup kernHorizontalKerninginLatinlookup0;
+} kern;
+
+@GDEF_Simple = [\NULL \nonmarkingreturn \space \n \h \i \l \m \t \a \d \c \e \b \k \p \j \y \g 
+	\q \v \w \dieresis \s \z \r \f \o \colon \period \grave \acute \comma \semicolon 
+	\quotesingle \quotedbl \exclam \x \A \hungarumlaut \agrave \aacute \egrave 
+	\eacute \edieresis \ograve \oacute \odieresis \ugrave \uacute \udieresis 
+	\ydieresis \yacute \adieresis \dotaccent \macron \sacute \zdotaccent \zacute 
+	\cacute \racute \uhungarumlaut \ohungarumlaut \nacute \uni0163 \tcaron \uni0146 
+	\uni013C \edotaccent \amacron \emacron \omacron \umacron \uni0123 \uni0137 
+	\uni0157 \uni0219 \dotlessi \igrave \iacute \idieresis \oe \asciitilde \tilde 
+	\atilde \otilde \ntilde \oslash \imacron \lslash \ae \dcaron \lacute \lcaron 
+	\circumflex \caron \acircumflex \ecircumflex \ocircumflex \ucircumflex \scaron 
+	\zcaron \ccaron \ecaron \ncaron \icircumflex \rcaron \breve \B \R \P \M \O \Q \Agrave 
+	\Aacute \Acircumflex \Atilde \Adieresis \Abreve \Amacron \Ograve \Oacute 
+	\Ocircumflex \Otilde \Odieresis \Ohungarumlaut \Omacron \Oslash \uni0156 
+	\Rcaron \Racute \dcroat \abreve \gbreve \C \U \Ccaron \Udieresis \Cacute \Uacute 
+	\Uhungarumlaut \Ugrave \Ucircumflex \N \Ntilde \Nacute \Ncaron \uni0145 \Umacron 
+	\S \Scaron \Sacute \uni0218 \E \Egrave \Eacute \Ecircumflex \Edieresis \Ecaron 
+	\Edotaccent \Emacron \AE \OE \I \Igrave \Iacute \Icircumflex \Idieresis \Imacron 
+	\Idotaccent \D \Dcroat \Dcaron \Eth \quotesinglbase \quotedblbase 
+	\quotedblright \quotedblleft \quoteright \quoteleft \hyphen \equal \less 
+	\greater \plus \asciicircum \slash \bar \asterisk \percent \numbersign 
+	\underscore \L \Lacute \Lslash \Lcaron \uni013B \J \Z \Zdotaccent \Zcaron \H \G 
+	\Gbreve \uni0122 \ogonek \Aogonek \Eogonek \Uogonek \Zacute \eogonek \uogonek 
+	\aogonek \iogonek \Iogonek \Y \Yacute \Ydieresis \T \uni0162 \Tcaron \F \V \X \K 
+	\uni0136 \ring \Aring \aring \cedilla \Ccedilla \ccedilla \Scedilla \scedilla 
+	\Uring \uring \W \germandbls \Thorn \thorn \question \questiondown \exclamdown 
+	\parenleft \parenright \bracketleft \bracketright \braceleft \braceright \Euro 
+	\dollar \sterling \ampersand \at \one \two \three \four \five \seven \six \nine 
+	\eight \zero \eth \u ];
+@GDEF_Ligature = [\t_r ];
+
+table GDEF {
+  GlyphClassDef @GDEF_Simple, @GDEF_Ligature, , ;
+
+} GDEF;
+
